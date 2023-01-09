@@ -1,8 +1,11 @@
+import Banner from "components/Banner";
+
 const Inicio = () =>{
     return(
-        <div>
+        <main>
+            <Banner />
             Inicio
-        </div>
+        </main>
     )
 }
 
