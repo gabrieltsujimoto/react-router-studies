@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Banner.module.css';
 import circuloColorido from '../../assets/circulo_colorido.png'
+import foto from '../../assets/minha_foto.png'
 
 export default function Banner() {
   return (
@@ -15,6 +16,7 @@ export default function Banner() {
       </div>
       <div className={styles.imagens}>
         <img className={styles.circuloColorido} src={circuloColorido} alt="Círculo colorido" aria-hidden={true}/>
+        <img className={styles.minhaFoto} src={foto} alt="Minha foto" aria-hidden={true} />
       </div>
     </div>
   )

@@ -21,18 +21,19 @@
 }
 
 .imagens {
-    display: flex;
     position: relative;
     height: 406px;
     justify-content: center;
 }
 
 .imagens > .minhaFoto {
+    border: 1px solid white;
     position: absolute;
     right: 0;
-    bottom: 0;
-    width: 18vw;
+    top: 150px;
+    width: 15vw;
     border-radius: 50%;
+    overflow: hidden;
 }
 
 .imagens > .circuloColorido {
@@ -61,7 +62,7 @@
     }
 
     .imagens > .minhaFoto {
-        width: 25vw;
+        width: 15vw;
     }
 
     .imagens > .circuloColorido {
@@ -85,6 +86,7 @@
     }
 
     .imagens {
+        display: flex;
         height: 307px;
     }
 
@@ -100,7 +102,7 @@
     }
 
     .imagens > .circuloColorido {
-        width: 240px;
+        max-width: 326px;
         transform: translate(-1.5rem, 0px);
     }
 }
