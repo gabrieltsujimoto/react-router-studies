@@ -1,0 +1,17 @@
+.recomendadosContainer{
+    display: inline-block;
+    width: 100%;
+}
+
+.recomendados{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 25px 0px ;
+}
+
+.post{
+    margin: 15px 5px;
+}

@@ -1,6 +1,6 @@
 import PostCard from "components/PostCard";
 import styles from './Inicio.module.css';
-import posts from 'assets/json/posts.json';
+import posts from 'json/posts.json';
 
 
 const Inicio = () =>{
